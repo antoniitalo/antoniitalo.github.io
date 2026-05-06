@@ -2,33 +2,38 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <strong>Associate Professor of Economics</strong> · Ramón y Cajal Fellow · <a href="https://www.cunef.edu/">CUNEF Universidad</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>CUNEF Universidad</strong></p>
+    <p>Despacho F4.5</p>
+    <p>C/ Leonardo Prieto Castro, 2</p>
+    <p>28040 Madrid, Spain</p>
+    <p>📧 antoni.demoragas [at] cunef.edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true
+selected_papers: true
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an Associate Professor (*profesor titular*) of Economics and a [Ramón y Cajal](https://www.aei.gob.es/convocatorias/buscador-convocatorias/ayudas-contratos-ramon-cajal-rci-2023) Fellow at [CUNEF Universidad](https://www.cunef.edu/) in Madrid.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research lies at the intersection of **political economy**, **applied theory**, and **applied microeconomics**. I study how information, institutions, and identity shape political behavior — with recent work on media competition and fact-checking, judicial decisions and secessionism, the persuasive power of personal stories versus expert advice, and the long-run consequences of childhood policies.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+You can find an up-to-date version of my [CV here]({{ '/assets/pdf/cv.pdf' | relative_url }}).
+
+I co-organize the [Madrid Political Economy Workshop (MAPE)](https://sites.google.com/view/cunefpolecon/home) at CUNEF.
+
+---
+
+**Recent funding & projects**
+
+I currently lead two funded research projects:
+
+- *Why Populism Wins? Evidence from Economic and Cultural Shocks* — Fundación Ramón Areces (€40,000).
+- [*EDUCARE*](https://elobservatoriosocial.fundacionlacaixa.org/documents/d/observatorisocial/sr24-summary-of-awarded-projects-antoni-italo-de-moragas) — exploring the long-term effects of early childhood education (ages 0–2). Fundació "la Caixa".
+
