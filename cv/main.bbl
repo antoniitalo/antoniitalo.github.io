@@ -1,0 +1,113 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ydnt/global//global/global/global}
+    \entry{caceres2021intergroup}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6d181affc6f2badb643bdb0f9d66e23b}{%
+           family={Cáceres-Delpiano},
+           familyi={C\bibinithyphendelim D\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+        {{hash=35b06af3a296f1fa597685aad2d522e5}{%
+           family={De\bibnamedelima Moragas},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod}}}%
+        {{hash=c049c7c89fe283872b97c6b0a2e6380b}{%
+           family={Facchini},
+           familyi={F\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=93c1024f4a32481052196a68baf0c2b5}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{53d3d99c8fcc07276aa04bcdf397202b}
+      \strng{fullhash}{8786fab0295918a8059e7d4456b2d5c4}
+      \strng{fullhashraw}{8786fab0295918a8059e7d4456b2d5c4}
+      \strng{bibnamehash}{8786fab0295918a8059e7d4456b2d5c4}
+      \strng{authorbibnamehash}{8786fab0295918a8059e7d4456b2d5c4}
+      \strng{authornamehash}{53d3d99c8fcc07276aa04bcdf397202b}
+      \strng{authorfullhash}{8786fab0295918a8059e7d4456b2d5c4}
+      \strng{authorfullhashraw}{8786fab0295918a8059e7d4456b2d5c4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Public Economics}
+      \field{title}{Intergroup contact and nation building: Evidence from military service in Spain}
+      \field{volume}{201}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{104477}
+      \range{pages}{1}
+    \endentry
+    \entry{hernandez2021crown}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e6ab4422fd4bbbfd9129369c85ce605d}{%
+           family={Hernández},
+           familyi={H\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6191feb07a99ac9a7d1d6d97c89744c4}{%
+           family={Torre},
+           familyi={T\bibinitperiod},
+           given={Margarita},
+           giveni={M\bibinitperiod}}}%
+        {{hash=35b06af3a296f1fa597685aad2d522e5}{%
+           family={De\bibnamedelima Moragas},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{901fd06090f56ba367d0a1baabb414cd}
+      \strng{fullhash}{f2759ca556b333c1d5ac4c243b423137}
+      \strng{fullhashraw}{f2759ca556b333c1d5ac4c243b423137}
+      \strng{bibnamehash}{f2759ca556b333c1d5ac4c243b423137}
+      \strng{authorbibnamehash}{f2759ca556b333c1d5ac4c243b423137}
+      \strng{authornamehash}{901fd06090f56ba367d0a1baabb414cd}
+      \strng{authorfullhash}{f2759ca556b333c1d5ac4c243b423137}
+      \strng{authorfullhashraw}{f2759ca556b333c1d5ac4c243b423137}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Political Research Exchange}
+      \field{number}{1}
+      \field{title}{The crown: a survey about the Spanish monarchy}
+      \field{volume}{3}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{1938149}
+      \range{pages}{1}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
