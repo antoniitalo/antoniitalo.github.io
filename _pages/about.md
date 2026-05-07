@@ -37,6 +37,12 @@ I currently lead two funded research projects:
 - *Why Populism Wins? Evidence from Economic and Cultural Shocks* — Fundación Ramón Areces (€40,000).
 - [*EDUCARE*](https://elobservatoriosocial.fundacionlacaixa.org/documents/d/observatorisocial/sr24-summary-of-awarded-projects-antoni-italo-de-moragas) — exploring the long-term effects of early childhood education (ages 0–2). Fundació "la Caixa".
 
+<!--
+  "A few favourite things" image grid — commented out until the image
+  files exist. To enable: drop like_1.jpg, like_2.jpg, like_3.jpg into
+  assets/img/, replace the placeholder captions, then uncomment the
+  block below by removing this HTML comment wrapper.
+
 ---
 
 **A few favourite things**
@@ -55,3 +61,5 @@ I currently lead two funded research projects:
     <p class="mt-2 mb-0" style="text-align: center; font-size: 0.85em; color: var(--global-text-color-light);">Caption three</p>
   </div>
 </div>
+-->
+
