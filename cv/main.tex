@@ -7,23 +7,51 @@
 
 
 % Choose bibliography style for formatting list of publications
-\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
-\bibliography{papers}
+\usepackage[
+  style=ieee,
+  url=false,
+  doi=false,
+  maxbibnames=99,
+  sorting=ydnt,
+  dashed=false
+]{biblatex}
+
+% al-folio's papers.bib uses a "category" field (publications /
+% working_papers / work_in_progress). Map it to biblatex's keywords
+% so that \printbibliography[keyword=...] filters work.
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{
+      \step[fieldsource=category, fieldtarget=keywords]
+    }
+  }
+}
+
+% Single source of truth: the same bib file the website uses.
+\addbibresource{../_bibliography/papers.bib}
+
+% Render the bibliography list with simplecv's enumerate style so it
+% looks like every other CV section (numbered, leftmargin=*, \small).
+\defbibenvironment{bibliography}
+  {\begin{enumerate}[leftmargin=*]\small}
+  {\end{enumerate}}
+  {\item}
 
 % Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
 \def\theme{MidnightBlue}
 
-% More predefined colors can be found in 
-% https://en.wikibooks.org/wiki/LaTeX/Colors
-% Example photograph taken from Wikimedia Commons
-% https://commons.wikimedia.org/wiki/File:Kiara_Krit_passport.jpg
-
 \usepackage{simplecv}
 
-\boldname{De Moragas}{Antoni-Italo}{A.}
+% biber parses "de" as a name prefix and "Moragas" as the family name,
+% so \boldname matches against just "Moragas".
+\boldname{Moragas}{Antoni-Italo}{A.}
 
 \begin{document}
 \pagestyle{empty}
+
+% Make every entry in papers.bib available to \printbibliography below,
+% even though we never \cite{} them in the text.
+\nocite{*}
 
 % Heading
 \headinginline{Antoni-Italo De Moragas}{
@@ -61,7 +89,7 @@
 \import{sections/}{stays.tex}
 
 \import{sections/}{extracurricular.tex}
-\import{sections/}{accreditations.tex}
+\import{sections/}{accreditations.tex}  % lowercased to work on case-sensitive filesystems (CI runner)
 
 \import{sections/}{refereeing.tex}
 
