@@ -1,0 +1,270 @@
+/* =============================================================
+   antoniitalo.eu — design system
+   --------------------------------------------------------------
+   Architect-quiet site (typography, white space, hairlines)
+   with ONE deliberate Mondrian composition wrapping the profile
+   photo as the page's signature gesture.
+
+   Important rules:
+   - Do NOT override al-folio's --global-* tokens at :root, so
+     dark mode keeps working.
+   - Use --global-divider-color for hairlines (al-folio defines
+     it correctly for both light and dark).
+   - Loaded LAST from main.scss so cascade wins where needed.
+   ============================================================= */
+
+:root {
+  --plate-red:    #c81d1f;
+  --plate-blue:   #0e3a8a;
+  --plate-yellow: #ffcd1c;
+  --plate-rule:   #000000;            /* outer border of column */
+}
+html[data-theme="dark"] {
+  /* Slightly muted primaries for dark surfaces; outer rule turns
+     light so the column is visible against a dark background.
+     Internal Mondrian dividers always stay literal #000 below
+     so the painting reads authentically. */
+  --plate-red:    #b82226;
+  --plate-blue:   #1a4d9c;
+  --plate-yellow: #e6b910;
+  --plate-rule:   #f1f1f1;
+}
+
+/* =============================================================
+   Typography (light touch)
+   ============================================================= */
+body {
+  font-feature-settings: "ss01", "kern", "tnum";
+  letter-spacing: 0.005em;
+}
+.post p, .post li { line-height: 1.65; }
+
+.page-title, .post .post-title, h1.post-title {
+  font-weight: 300 !important;
+  font-size: 2.4rem !important;
+  letter-spacing: -0.025em;
+  text-transform: lowercase;
+  margin-bottom: 0.6rem;
+}
+
+.post-description, header.post-header .post-description {
+  font-style: normal !important;
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: var(--global-text-color-light);
+  margin-bottom: 2rem;
+}
+
+/* Section labels: small uppercase + hairline above */
+.publications h2.category,
+.publications h2.year,
+.publications h1.year,
+.news h2,
+section.news h2,
+section.selected_papers h2,
+h2.news {
+  font-size: 0.78rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 0.6rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--global-text-color);
+}
+
+/* =============================================================
+   The Mondrian Plate (signature element around the profile photo)
+   --------------------------------------------------------------
+       ┌──────┬───────────────┐
+       │ RED  │               │
+       │      │               │
+       ├──────┤    PHOTO      │
+       │      │               │
+       │ BLUE │               │
+       │      ├───────────────┤
+       ├──────┤               │
+       │ YEL  │   address     │
+       └──────┴───────────────┘
+
+   Implementation:
+   - .profile gets padding-left to make room for a 50px column.
+   - .profile::before is the column: a 3-stop gradient (red /
+     blue / yellow) with literal-black internal dividers and an
+     outer plate-rule border.
+   - The photo has a 4px plate-rule border and its left edge is
+     pulled 4px into the column so the column's right border AND
+     the photo's left border occupy the same line — a single
+     unified Mondrian rule, not a doubled-up 8px stack.
+   ============================================================= */
+
+.profile {
+  position: relative;
+  padding-left: 50px;
+  background: transparent;
+  isolation: isolate;
+}
+
+.profile::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  background: linear-gradient(
+    to bottom,
+    var(--plate-red)    0%,    var(--plate-red)    52%,
+    #000                52%,   #000                55%,
+    var(--plate-blue)   55%,   var(--plate-blue)   84%,
+    #000                84%,   #000                87%,
+    var(--plate-yellow) 87%,   var(--plate-yellow) 100%
+  );
+  border: 4px solid var(--plate-rule);
+  z-index: 0;
+}
+
+.profile img,
+.profile.float-right img,
+.profile.float-left  img {
+  border: 4px solid var(--plate-rule) !important;
+  border-radius: 0 !important;
+  background: transparent;
+  box-shadow: none !important;
+  display: block;
+  width: calc(100% + 4px);
+  margin-left: -4px;          /* overlap column's right border */
+  position: relative;
+  z-index: 1;
+}
+
+.profile .address {
+  position: relative;
+  z-index: 1;
+  margin: 0.9rem 0 0 0;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--global-divider-color);
+  font-size: 0.85rem;
+  line-height: 1.55;
+}
+.profile .address p { margin-bottom: 0.15rem; }
+
+/* =============================================================
+   Page-wide hairlines (architect-quiet)
+   ============================================================= */
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--global-divider-color);
+  margin: 2.2rem 0;
+}
+
+/* News table: hairline rule between rows, tabular dates */
+.news table.table {
+  border-collapse: collapse;
+  width: 100%;
+  background: transparent;
+}
+.news table.table td {
+  border: 0 !important;
+  border-bottom: 1px solid var(--global-divider-color) !important;
+  padding: 0.85rem 0.6rem !important;
+  background: transparent !important;
+  font-size: 0.95rem;
+}
+.news table.table tr:last-child td { border-bottom: 0 !important; }
+.news table.table td:first-child {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  width: 9.5em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+/* Bibliography */
+ol.bibliography {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+ol.bibliography > li {
+  border-bottom: 1px solid var(--global-divider-color);
+  padding: 1rem 0;
+  background: transparent !important;
+}
+ol.bibliography > li:last-child { border-bottom: 0; }
+ol.bibliography > li .title,
+ol.bibliography > li span.title {
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+ol.bibliography > li em.journal,
+ol.bibliography > li i { font-style: italic; }
+
+/* Tables (teaching page) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table th, table td {
+  border-top: 1px solid var(--global-divider-color);
+  padding: 0.55rem 0.7rem;
+  text-align: left;
+}
+table th {
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-top: 2px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+table tr:last-child td { border-bottom: 1px solid var(--global-divider-color); }
+
+/* =============================================================
+   Hover: subtle yellow underline -- the only echo of the plate's
+   palette outside the profile area.
+   ============================================================= */
+
+a:hover {
+  text-decoration: none;
+  background: linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent calc(100% - 5px),
+    var(--plate-yellow) calc(100% - 5px),
+    var(--plate-yellow) calc(100% - 1px),
+    transparent calc(100% - 1px)
+  );
+}
+
+/* Buttons (PDF / Slides / etc.): hairline outline, invert on hover */
+.btn, .btn-default, .btn-primary, .btn-secondary {
+  border-radius: 0 !important;
+  border: 1px solid currentColor !important;
+  background: transparent !important;
+  color: inherit !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem !important;
+  padding: 0.18rem 0.55rem !important;
+}
+.btn:hover {
+  background: var(--global-text-color) !important;
+  color: var(--global-bg-color) !important;
+}
+
+/* =============================================================
+   Responsive — shrink the plate on small screens
+   ============================================================= */
+
+@media (max-width: 600px) {
+  .profile { padding-left: 36px; }
+  .profile::before { width: 36px; border-width: 3px; }
+  .page-title, .post-title { font-size: 1.8rem !important; }
+}
