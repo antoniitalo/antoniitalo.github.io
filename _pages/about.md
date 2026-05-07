@@ -10,8 +10,8 @@ profile:
   image_circular: true
   more_info: >
     <p><strong>CUNEF Universidad</strong></p>
-    <p>Despacho F4.5</p>
-    <p>C/ Leonardo Prieto Castro, 2</p>
+    <p>Office A4-22</p>
+    <p>C/ Almansa 101</p>
     <p>28040 Madrid, Spain</p>
     <p>📧 antoni.demoragas [at] cunef.edu</p>
 
