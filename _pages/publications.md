@@ -12,14 +12,14 @@ nav_order: 2
 
 <h2 class="category">Publications</h2>
 
-{% bibliography -q @*[category=publications] %}
+{% bibliography --group_by none --query @*[category=publications]* %}
 
 <h2 class="category">Working papers</h2>
 
-{% bibliography -q @*[category=working_papers] %}
+{% bibliography --group_by none --query @*[category=working_papers]* %}
 
 <h2 class="category">Work in progress</h2>
 
-{% bibliography -q @*[category=work_in_progress] %}
+{% bibliography --group_by none --query @*[category=work_in_progress]* %}
 
 </div>
