@@ -37,6 +37,3 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
-
-// Mondrian-esque elegant overlay (must load LAST so it overrides al-folio)
-@use "custom_mondrian";
