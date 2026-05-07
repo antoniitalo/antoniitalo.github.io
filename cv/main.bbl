@@ -19,6 +19,133 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
+    \entry{andreottola_demoragas_denter_expertsaccountability_wip}{unpublished}{}{}
+      \name{author}{3}{}{%
+        {{hash=3b81b92de314acb754b90a8f3bc0fc32}{%
+           family={Andreottola},
+           familyi={A\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=0dd84be33688c07abe1a46165fde7a12}{%
+           family={Denter},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{335713e486946789af007324e67cb582}
+      \strng{fullhash}{3d458ee4442148ac8520a3d097a16491}
+      \strng{fullhashraw}{3d458ee4442148ac8520a3d097a16491}
+      \strng{bibnamehash}{3d458ee4442148ac8520a3d097a16491}
+      \strng{authorbibnamehash}{3d458ee4442148ac8520a3d097a16491}
+      \strng{authornamehash}{335713e486946789af007324e67cb582}
+      \strng{authorfullhash}{3d458ee4442148ac8520a3d097a16491}
+      \strng{authorfullhashraw}{3d458ee4442148ac8520a3d097a16491}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Work in progress}
+      \field{title}{Experts and Political Accountability}
+      \field{year}{2026}
+      \true{nocite}
+      \keyw{work_in_progress}
+    \endentry
+    \entry{andreottola_demoragas_denter_li_identitypopulism_wip}{unpublished}{}{}
+      \name{author}{4}{}{%
+        {{hash=3b81b92de314acb754b90a8f3bc0fc32}{%
+           family={Andreottola},
+           familyi={A\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=0dd84be33688c07abe1a46165fde7a12}{%
+           family={Denter},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=d32559a5fc6b9c48ad950f89259bc465}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{335713e486946789af007324e67cb582}
+      \strng{fullhash}{8937be3b131bd352dffb1aa799a091a1}
+      \strng{fullhashraw}{8937be3b131bd352dffb1aa799a091a1}
+      \strng{bibnamehash}{8937be3b131bd352dffb1aa799a091a1}
+      \strng{authorbibnamehash}{8937be3b131bd352dffb1aa799a091a1}
+      \strng{authornamehash}{335713e486946789af007324e67cb582}
+      \strng{authorfullhash}{8937be3b131bd352dffb1aa799a091a1}
+      \strng{authorfullhashraw}{8937be3b131bd352dffb1aa799a091a1}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Work in progress}
+      \field{title}{Identity and Populism}
+      \field{year}{2026}
+      \true{nocite}
+      \keyw{work_in_progress}
+    \endentry
+    \entry{baertsch_demoragas_facchini_gonzalez_ecec_wip}{unpublished}{}{}
+      \name{author}{4}{}{%
+        {{hash=6d3aca1b7c164c07b44af8320f1b1360}{%
+           family={Baertsch},
+           familyi={B\bibinitperiod},
+           given={Laurenz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=c049c7c89fe283872b97c6b0a2e6380b}{%
+           family={Facchini},
+           familyi={F\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dedb65946d953076cd415bad0b22b003}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Libertad},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4118e52a9a3ed882af8688abc4c68ffc}
+      \strng{fullhash}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{fullhashraw}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{bibnamehash}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{authorbibnamehash}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{authornamehash}{4118e52a9a3ed882af8688abc4c68ffc}
+      \strng{authorfullhash}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{authorfullhashraw}{3d8f38456f061ec10aaa5849bd8a4644}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Work in progress}
+      \field{title}{The Broad Impact of Early Childhood Education and Care}
+      \field{year}{2026}
+      \true{nocite}
+      \keyw{work_in_progress}
+    \endentry
     \entry{demoragas_populism_wip}{unpublished}{}{}
       \name{author}{1}{}{%
         {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
@@ -193,6 +320,7 @@
       \strng{authornamehash}{4118e52a9a3ed882af8688abc4c68ffc}
       \strng{authorfullhash}{3d8f38456f061ec10aaa5849bd8a4644}
       \strng{authorfullhashraw}{3d8f38456f061ec10aaa5849bd8a4644}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.1)  7 MAY 2026 18:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.4.1)  7 MAY 2026 18:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -944,9 +944,9 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                This warning can be suppressed with
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
-) (./sections/awards.tex) (./sections/teaching.tex) (./sections/supervision.tex
-[2]) (./sections/talks.tex) (./sections/stays.tex)
-(./sections/extracurricular.tex [3]) (./sections/accreditations.tex)
+) (./sections/awards.tex) (./sections/teaching.tex [2])
+(./sections/supervision.tex) (./sections/talks.tex) (./sections/stays.tex
+[3]) (./sections/extracurricular.tex) (./sections/accreditations.tex)
 (./sections/refereeing.tex) (./sections/languages.tex) [4]
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -962,11 +962,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23036 strings out of 467349
- 405831 string characters out of 5417750
- 1312715 words of memory out of 5000000
- 51605 multiletter control sequences out of 15000+600000
- 655394 words of font info for 155 fonts, out of 8000000 for 9000
+ 23045 strings out of 467349
+ 406717 string characters out of 5417750
+ 1311820 words of memory out of 5000000
+ 51612 multiletter control sequences out of 15000+600000
+ 654301 words of font info for 152 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,7n,98p,1143b,1763s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></o
@@ -974,10 +974,10 @@ pt/texlive/texdir/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></opt/texliv
 e/texdir/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></opt/texlive/texdir/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></opt/texlive/texdir/texmf-dist/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (4 pages, 83050 bytes).
+Output written on main.pdf (4 pages, 83394 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 50825 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 48777 words of extra memory for PDF output out of 51595 (max. 10000000)
 
