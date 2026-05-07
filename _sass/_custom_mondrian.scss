@@ -1,0 +1,419 @@
+/* =============================================================
+   Mondrian-esque elegant overlay for al-folio
+   --------------------------------------------------------------
+   Inspired by Piet Mondrian's neoplasticism: bold black grid
+   lines, restrained palette of red / blue / yellow on warm
+   white, geometric rectangles, no rounded corners.
+
+   Designed as a non-invasive overlay -- loaded after al-folio's
+   own stylesheet so a few targeted overrides reshape the look
+   without touching the theme.
+   ============================================================= */
+
+:root {
+  --mn-black:       #111111;
+  --mn-ink:         #1a1a1a;
+  --mn-rule:        #000000;
+  --mn-paper:       #fbfaf6;     /* warm off-white */
+  --mn-paper-soft:  #f4f1e8;
+  --mn-red:         #c8102e;
+  --mn-blue:        #1d3b8a;
+  --mn-yellow:      #ffcf2a;
+  --mn-shadow:      4px 4px 0 0 var(--mn-black);
+}
+
+/* ---------- Page surface & typography ---------- */
+html, body {
+  background: var(--mn-paper) !important;
+  color: var(--mn-ink) !important;
+}
+
+body {
+  font-family: "Inter", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-feature-settings: "ss01", "tnum", "kern";
+  letter-spacing: 0.005em;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-title, .page-title, .post .post-title {
+  font-family: "Inter", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.012em;
+  color: var(--mn-black);
+}
+
+h1, .page-title, .post-title { font-weight: 800; }
+
+/* ---------- Links ---------- */
+a, a:visited {
+  color: var(--mn-red);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+a:hover {
+  background: var(--mn-yellow);
+  color: var(--mn-black);
+  border-bottom-color: var(--mn-black);
+}
+
+/* ---------- Navbar (top) ---------- */
+.navbar {
+  background: #ffffff !important;
+  border-bottom: 4px solid var(--mn-black) !important;
+  box-shadow: none !important;
+  padding: 0.55rem 1.1rem !important;
+}
+.navbar .navbar-brand {
+  font-weight: 700 !important;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  color: var(--mn-black) !important;
+  border-bottom: none !important;
+  position: relative;
+  padding-left: 0.9rem !important;
+}
+.navbar .navbar-brand::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 50%;
+  width: 6px; height: 22px;
+  margin-top: -11px;
+  background: var(--mn-red);
+}
+.navbar .nav-item .nav-link {
+  color: var(--mn-black) !important;
+  text-transform: uppercase;
+  font-size: 0.78rem !important;
+  letter-spacing: 0.06em;
+  border-bottom: none !important;
+  padding: 0.4rem 0.85rem !important;
+  font-weight: 600;
+}
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link.active {
+  color: var(--mn-black) !important;
+  background: var(--mn-yellow) !important;
+}
+.navbar .contact-icon { color: var(--mn-black) !important; }
+
+/* ---------- About / profile page ---------- */
+
+/* Decorative Mondrian composition strip at the very top of about */
+.post.profile {
+  position: relative;
+  padding-top: 2.4rem;
+}
+.post.profile::before {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 100%;
+  margin: 0 0 2rem 0;
+  background:
+    linear-gradient(to right,
+      var(--mn-red)    0%,  var(--mn-red)    18%,
+      var(--mn-black)  18%, var(--mn-black)  20%,
+      #ffffff          20%, #ffffff          54%,
+      var(--mn-black)  54%, var(--mn-black)  56%,
+      var(--mn-blue)   56%, var(--mn-blue)   74%,
+      var(--mn-black)  74%, var(--mn-black)  76%,
+      var(--mn-yellow) 76%, var(--mn-yellow) 100%
+    );
+}
+
+/* Profile photo: square, thick black border, yellow offset shadow */
+.profile img,
+.profile.float-right img,
+.profile.float-left  img {
+  border-radius: 0 !important;
+  border: 3px solid var(--mn-black) !important;
+  box-shadow: 10px 10px 0 0 var(--mn-yellow);
+  background: #fff;
+}
+
+/* Address / "more_info" block under the photo */
+.profile .address {
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  background: #ffffff;
+  border-left: 4px solid var(--mn-blue);
+  padding: 0.7rem 0.9rem;
+  margin-top: 1rem;
+}
+.profile .address p { margin-bottom: 0.15rem; }
+
+/* Subtitle under the title on the about page */
+.post-description, .post .post-description, header.post-header .post-description {
+  font-style: normal !important;
+  font-size: 1.05rem;
+  color: var(--mn-ink);
+  border-left: 6px solid var(--mn-red);
+  padding: 0.1rem 0 0.1rem 0.85rem;
+  margin-bottom: 1.6rem;
+}
+
+/* Page title (e.g. "research", "teaching") */
+.page-title, .post-title {
+  display: inline-block;
+  position: relative;
+  padding: 0.05em 0;
+}
+.page-title::after, .post-title::after {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  margin-top: 0.35rem;
+  background: var(--mn-black);
+}
+
+/* ---------- News list (homepage) ---------- */
+.news h2,
+section h2.news,
+.news .news-title {
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 3px solid var(--mn-black);
+  padding-bottom: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+/* Tabular news (al-folio default uses a <table class="table">) */
+.news table.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  background: transparent;
+}
+.news table.table td {
+  background: #ffffff;
+  border-top: none !important;
+  border-bottom: 2px solid var(--mn-black) !important;
+  padding: 0.85rem 1rem !important;
+  vertical-align: top;
+  font-size: 0.95rem;
+}
+.news table.table tr:first-child td { border-top: 2px solid var(--mn-black) !important; }
+.news table.table td:first-child {
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 9.5em;
+  border-left: 2px solid var(--mn-black) !important;
+  background: var(--mn-paper-soft);
+}
+.news table.table td:last-child {
+  border-right: 2px solid var(--mn-black) !important;
+}
+
+/* Rotating Mondrian accent on every 3rd news row */
+.news table.table tbody tr:nth-child(3n+1) td:first-child { box-shadow: inset 6px 0 0 0 var(--mn-red); }
+.news table.table tbody tr:nth-child(3n+2) td:first-child { box-shadow: inset 6px 0 0 0 var(--mn-blue); }
+.news table.table tbody tr:nth-child(3n)   td:first-child { box-shadow: inset 6px 0 0 0 var(--mn-yellow); }
+
+/* Card-style news (al-folio sometimes renders as <div class="news">) */
+.news .post,
+.news article {
+  background: #ffffff;
+  border: 2px solid var(--mn-black);
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.news .post:nth-child(3n+1)::after,
+.news article:nth-child(3n+1)::after { background: var(--mn-red); }
+.news .post:nth-child(3n+2)::after,
+.news article:nth-child(3n+2)::after { background: var(--mn-blue); }
+.news .post:nth-child(3n)::after,
+.news article:nth-child(3n)::after   { background: var(--mn-yellow); }
+.news .post::after,
+.news article::after {
+  content: "";
+  position: absolute;
+  top: 0; right: 0;
+  width: 8px; height: 100%;
+}
+
+/* ---------- Publications / bibliography ---------- */
+.publications { margin-top: 1rem; }
+
+.publications h2.year,
+.publications h1.year,
+ol.bibliography + h2,
+.bibliography ~ h2 {
+  display: inline-block;
+  background: var(--mn-black);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.18em 0.7em;
+  margin: 1.2rem 0 0.8rem 0;
+  border: 0;
+}
+
+ol.bibliography {
+  list-style: none;
+  padding-left: 0;
+  border-left: 4px solid var(--mn-black);
+  margin-left: 0;
+}
+ol.bibliography > li {
+  background: #ffffff;
+  border: 2px solid var(--mn-black);
+  border-left: 0;
+  margin: 0 0 0.85rem 0;
+  padding: 0.9rem 1.1rem;
+  position: relative;
+}
+ol.bibliography > li .title,
+ol.bibliography > li span.title {
+  font-weight: 700;
+  color: var(--mn-black);
+  letter-spacing: -0.005em;
+}
+ol.bibliography > li .author,
+ol.bibliography > li span.author {
+  color: var(--mn-ink);
+}
+ol.bibliography > li em.journal,
+ol.bibliography > li .periodical {
+  color: var(--mn-blue);
+  font-style: italic;
+}
+ol.bibliography > li a.btn,
+ol.bibliography > li .btn {
+  border-radius: 0 !important;
+  border: 2px solid var(--mn-black) !important;
+  background: #ffffff !important;
+  color: var(--mn-black) !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  padding: 0.15rem 0.55rem !important;
+  margin-right: 0.25rem;
+}
+ol.bibliography > li a.btn:hover,
+ol.bibliography > li .btn:hover {
+  background: var(--mn-yellow) !important;
+}
+
+/* ---------- Generic buttons / badges ---------- */
+.btn, .badge, button.btn {
+  border-radius: 0 !important;
+}
+.btn-default, .btn-primary, .btn-secondary {
+  border: 2px solid var(--mn-black) !important;
+  background: #ffffff !important;
+  color: var(--mn-black) !important;
+  font-weight: 600;
+}
+.btn-default:hover, .btn-primary:hover, .btn-secondary:hover {
+  background: var(--mn-yellow) !important;
+  color: var(--mn-black) !important;
+}
+
+/* ---------- Tables (teaching page etc.) ---------- */
+table {
+  background: #ffffff;
+  border: 2px solid var(--mn-black);
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table th {
+  background: var(--mn-black);
+  color: #ffffff !important;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.82rem;
+  padding: 0.55rem 0.8rem;
+  border: 0 !important;
+}
+table td {
+  border-bottom: 1px solid var(--mn-black) !important;
+  padding: 0.55rem 0.8rem !important;
+}
+table tr:last-child td { border-bottom: 0 !important; }
+
+/* ---------- Lists ---------- */
+.post ul li::marker { color: var(--mn-red); }
+.post ol li::marker { color: var(--mn-blue); font-weight: 700; }
+
+/* ---------- Horizontal rule ---------- */
+hr {
+  border: 0 !important;
+  height: 4px !important;
+  background: var(--mn-black) !important;
+  margin: 2.2rem 0 !important;
+  position: relative;
+  overflow: visible;
+}
+
+/* ---------- Footer ---------- */
+footer, footer.fixed-bottom, .footer {
+  border-top: 4px solid var(--mn-black) !important;
+  background: #ffffff !important;
+  color: var(--mn-ink) !important;
+  font-size: 0.82rem;
+}
+footer a, .footer a { color: var(--mn-red) !important; }
+
+/* ---------- Social icons row ---------- */
+.social .contact-icons a,
+.social a {
+  color: var(--mn-black) !important;
+  border-bottom: none !important;
+}
+.social .contact-icons a:hover,
+.social a:hover {
+  color: var(--mn-red) !important;
+  background: transparent !important;
+}
+
+/* ---------- Code blocks ---------- */
+pre, code {
+  border-radius: 0 !important;
+  border: 1px solid var(--mn-black);
+  background: #ffffff !important;
+}
+
+/* ---------- Selection ---------- */
+::selection { background: var(--mn-yellow); color: var(--mn-black); }
+
+/* =============================================================
+   Dark-mode tolerance
+   al-folio supports a dark theme. Soften the palette so the
+   Mondrian look still reads on a dark surface.
+   ============================================================= */
+html[data-theme="dark"] body,
+html[data-theme="dark"] {
+  --mn-paper: #15161a;
+  --mn-paper-soft: #1c1d22;
+  --mn-ink: #ececec;
+  --mn-black: #ececec;
+  --mn-rule: #ececec;
+}
+html[data-theme="dark"] .navbar,
+html[data-theme="dark"] footer,
+html[data-theme="dark"] .news table.table td,
+html[data-theme="dark"] ol.bibliography > li,
+html[data-theme="dark"] .news .post,
+html[data-theme="dark"] .news article {
+  background: #1c1d22 !important;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 600px) {
+  .post.profile::before { height: 6px; margin-bottom: 1.4rem; }
+  .profile img { box-shadow: 6px 6px 0 0 var(--mn-yellow); }
+  .news table.table td:first-child { width: 7em; font-size: 0.72rem; }
+}
