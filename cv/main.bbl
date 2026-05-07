@@ -19,18 +19,247 @@
 
 \refsection{0}
   \datalist[entry]{ydnt/global//global/global/global}
-    \entry{caceres2021intergroup}{article}{}{}
+    \entry{demoragas_populism_wip}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{fullhash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{fullhashraw}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{bibnamehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authorbibnamehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authornamehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authorfullhash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authorfullhashraw}{7dc664359f370ac9f973a7e69a35db0b}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Work in progress}
+      \field{title}{Populism and Economic Insecurity}
+      \field{year}{2026}
+      \true{nocite}
+      \keyw{work_in_progress}
+    \endentry
+    \entry{demoragas_consensushurts_wp}{unpublished}{}{}
+      \name{author}{1}{}{%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{fullhash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{fullhashraw}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{bibnamehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authorbibnamehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authornamehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authorfullhash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authorfullhashraw}{7dc664359f370ac9f973a7e69a35db0b}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{note}{Working paper, updated January 2026}
+      \field{title}{When Consensus Hurts: Experts' Advice and Electoral Support}
+      \field{year}{2026}
+      \true{nocite}
+      \verb{file}
+      \verb https://drive.google.com/file/d/1g7uKyOC099MLlH0b-N24P7nW0TAjn_hH/view?usp=drive_link
+      \endverb
+      \keyw{working_papers}
+    \endentry
+    \entry{alquezar_demoragas_estebancasanelles_handofgod_wip}{unpublished}{}{}
+      \name{author}{3}{}{%
+        {{hash=63b1711950e747754f8765a9e4b11cc0}{%
+           family={Alquezar-Yus},
+           familyi={A\bibinithyphendelim Y\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=2a9c5f7950caaf35c107fcc0f346d667}{%
+           family={Esteban-Casanelles},
+           familyi={E\bibinithyphendelim C\bibinitperiod},
+           given={Teresa},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0e01f87e76ca2f0d376a74729840c84}
+      \strng{fullhash}{404af86bad0d8551c149a3227efca202}
+      \strng{fullhashraw}{404af86bad0d8551c149a3227efca202}
+      \strng{bibnamehash}{404af86bad0d8551c149a3227efca202}
+      \strng{authorbibnamehash}{404af86bad0d8551c149a3227efca202}
+      \strng{authornamehash}{c0e01f87e76ca2f0d376a74729840c84}
+      \strng{authorfullhash}{404af86bad0d8551c149a3227efca202}
+      \strng{authorfullhashraw}{404af86bad0d8551c149a3227efca202}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Draft available upon request}
+      \field{title}{The Hand of God at the Ballot Box: How Catholic Polling Places Shape Electoral Outcomes}
+      \field{year}{2025}
+      \true{nocite}
+      \keyw{working_papers}
+    \endentry
+    \entry{andreottola_demoragas_2025_breakingnews}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3b81b92de314acb754b90a8f3bc0fc32}{%
+           family={Andreottola},
+           familyi={A\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{de29ae8a45ba3c0adf330dd7f727c2be}
+      \strng{fullhash}{de29ae8a45ba3c0adf330dd7f727c2be}
+      \strng{fullhashraw}{de29ae8a45ba3c0adf330dd7f727c2be}
+      \strng{bibnamehash}{de29ae8a45ba3c0adf330dd7f727c2be}
+      \strng{authorbibnamehash}{de29ae8a45ba3c0adf330dd7f727c2be}
+      \strng{authornamehash}{de29ae8a45ba3c0adf330dd7f727c2be}
+      \strng{authorfullhash}{de29ae8a45ba3c0adf330dd7f727c2be}
+      \strng{authorfullhashraw}{de29ae8a45ba3c0adf330dd7f727c2be}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the impact of media competition on the incentives of media outlets to fact-check information before publishing as well as on consumer demand for fact-based news. On the supply side, when competition increases, media outlets may forgo fact-checking to make sure they are the first to report a story. Consequently, excessive media competition can compromise the quality of reporting. Conversely, on the demand side, increasing competition encourages readers' selectiveness, thus giving media outlets an incentive to fact-check. We use our model to assess the impact of the internet on news quality, demonstrating, for instance, that a faster news cycle can foster increased fact-checking.}
+      \field{journaltitle}{Journal of Politics}
+      \field{month}{10}
+      \field{title}{Breaking News: A Model of Media Competition, Fact-Checking, and Political Accountability}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{file}
+      \verb https://drive.google.com/file/d/1FvvWKsYZUclDElgitathLCc689lex-Hs/view?usp=sharing
+      \endverb
+      \keyw{publications}
+    \endentry
+    \entry{baertsch_demoragas_facchini_gonzalez_childcare_wip}{unpublished}{}{}
       \name{author}{4}{}{%
-        {{hash=6d181affc6f2badb643bdb0f9d66e23b}{%
-           family={Cáceres-Delpiano},
-           familyi={C\bibinithyphendelim D\bibinitperiod},
+        {{hash=6d3aca1b7c164c07b44af8320f1b1360}{%
+           family={Baertsch},
+           familyi={B\bibinitperiod},
+           given={Laurenz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=c049c7c89fe283872b97c6b0a2e6380b}{%
+           family={Facchini},
+           familyi={F\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dedb65946d953076cd415bad0b22b003}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Libertad},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4118e52a9a3ed882af8688abc4c68ffc}
+      \strng{fullhash}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{fullhashraw}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{bibnamehash}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{authorbibnamehash}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{authornamehash}{4118e52a9a3ed882af8688abc4c68ffc}
+      \strng{authorfullhash}{3d8f38456f061ec10aaa5849bd8a4644}
+      \strng{authorfullhashraw}{3d8f38456f061ec10aaa5849bd8a4644}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Draft available upon request}
+      \field{title}{Childcare Before Age Three and Long-Term Academic Achievement: Evidence from a Lottery in Barcelona}
+      \field{year}{2025}
+      \true{nocite}
+      \keyw{working_papers}
+    \endentry
+    \entry{barbet_demoragas_vidal_2024_stories}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=903fa2906749855d4d67004bb44fe9ef}{%
+           family={Barbet},
+           familyi={B\bibinitperiod},
+           given={Berta},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=f7ee7954500fc8d273130a7ef19ff802}{%
+           family={Vidal},
+           familyi={V\bibinitperiod},
+           given={Guillem},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ec081687dc43c7c60a4af0783db0394}
+      \strng{fullhash}{5de62dc4dcfad647c98a4ff300ff4712}
+      \strng{fullhashraw}{5de62dc4dcfad647c98a4ff300ff4712}
+      \strng{bibnamehash}{5de62dc4dcfad647c98a4ff300ff4712}
+      \strng{authorbibnamehash}{5de62dc4dcfad647c98a4ff300ff4712}
+      \strng{authornamehash}{9ec081687dc43c7c60a4af0783db0394}
+      \strng{authorfullhash}{5de62dc4dcfad647c98a4ff300ff4712}
+      \strng{authorfullhashraw}{5de62dc4dcfad647c98a4ff300ff4712}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Are personal stories more effective in shaping opinion than experts' endorsements? This study investigates the persuasiveness of personal stories and expert endorsements in shaping public opinion on education spending and pollution reduction policies. Using a survey experiment in Spain, we found that personal stories consistently increased support for both policies, with a particularly strong effect on citizens with populist attitudes or voters of populist parties. These findings contribute to a better understanding of the success of populist parties and the influence of personal stories on public opinion.}
+      \field{journaltitle}{European Journal of Political Research}
+      \field{month}{1}
+      \field{title}{Stories beat experts: A survey experiment on political persuasiveness}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{file}
+      \verb https://drive.google.com/file/d/1xCccJrosP0iEHGlYv_Z7zEe_Y8EZsEZM/view?usp=drive_link
+      \endverb
+      \keyw{publications}
+    \endentry
+    \entry{caceres_demoragas_facchini_gonzalez_geographicmobility_wp}{unpublished}{}{}
+      \name{author}{4}{}{%
+        {{hash=6a23621c4cd8c1638882509e89ddca81}{%
+           family={Cáceres},
+           familyi={C\bibinitperiod},
            given={Julio},
            giveni={J\bibinitperiod}}}%
-        {{hash=35b06af3a296f1fa597685aad2d522e5}{%
-           family={De\bibnamedelima Moragas},
-           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
            given={Antoni-Italo},
-           giveni={A\bibinithyphendelim I\bibinitperiod}}}%
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
         {{hash=c049c7c89fe283872b97c6b0a2e6380b}{%
            family={Facchini},
            familyi={F\bibinitperiod},
@@ -42,70 +271,256 @@
            given={Ignacio},
            giveni={I\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{53d3d99c8fcc07276aa04bcdf397202b}
-      \strng{fullhash}{8786fab0295918a8059e7d4456b2d5c4}
-      \strng{fullhashraw}{8786fab0295918a8059e7d4456b2d5c4}
-      \strng{bibnamehash}{8786fab0295918a8059e7d4456b2d5c4}
-      \strng{authorbibnamehash}{8786fab0295918a8059e7d4456b2d5c4}
-      \strng{authornamehash}{53d3d99c8fcc07276aa04bcdf397202b}
-      \strng{authorfullhash}{8786fab0295918a8059e7d4456b2d5c4}
-      \strng{authorfullhashraw}{8786fab0295918a8059e7d4456b2d5c4}
+      \strng{namehash}{f1dbaa68a4fd5843bfdfbecc4fcd25cd}
+      \strng{fullhash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{fullhashraw}{50709db922f7397dc0670c4bf66447ed}
+      \strng{bibnamehash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{authorbibnamehash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{authornamehash}{f1dbaa68a4fd5843bfdfbecc4fcd25cd}
+      \strng{authorfullhash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{authorfullhashraw}{50709db922f7397dc0670c4bf66447ed}
+      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{note}{New working paper coming soon. Earlier version available online.}
+      \field{title}{Geographical Mobility as a Bridge to Opportunity: Evidence from the Spanish Military Service}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{file}
+      \verb https://congresscreator.org/system/files/papers/Mili___Migration_project%20%281%29.pdf
+      \endverb
+      \keyw{working_papers}
+    \endentry
+    \entry{casas_curci_demoragas_2024_judicial}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=465809ea24af21f6149564e280a575b9}{%
+           family={Casas},
+           familyi={C\bibinitperiod},
+           given={Agustín},
+           giveni={A\bibinitperiod}}}%
+        {{hash=38d54146dd0cbb5231a56a74f1763851}{%
+           family={Curci},
+           familyi={C\bibinitperiod},
+           given={Federico},
+           giveni={F\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{65f09d4268b4a92ba5a9b886187bd245}
+      \strng{fullhash}{f67822452c4751f6ce7b6b73866cf9dd}
+      \strng{fullhashraw}{f67822452c4751f6ce7b6b73866cf9dd}
+      \strng{bibnamehash}{f67822452c4751f6ce7b6b73866cf9dd}
+      \strng{authorbibnamehash}{f67822452c4751f6ce7b6b73866cf9dd}
+      \strng{authornamehash}{65f09d4268b4a92ba5a9b886187bd245}
+      \strng{authorfullhash}{f67822452c4751f6ce7b6b73866cf9dd}
+      \strng{authorfullhashraw}{f67822452c4751f6ce7b6b73866cf9dd}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We exploit a unique quasi-experiment to study the effects of judicial decisions on sensitive issues on political attitudes. In 2010, the Spanish Constitutional Court partially overruled the new Catalan Constitution---the Estatut---that granted further decentralisation. Our identification strategy relies on the fact that this ruling occurred amid a public opinion survey. We find that the ruling increased support for independence by 5 percentage points. We interpret this result as evidence of judicial backlash on political attitudes: a judicial decision that limited further autonomy triggered a shift in attitudes towards even more autonomy. Moreover, the ruling decreased trust in the courts and satisfaction with democracy. This backlash of political attitudes extends to other spheres: Catalans increased their national identification with their region and the support for pro-decentralisation parties. Finally, we show that the ruling increased polarisation around the partisan and identity cleavages.}
+      \field{journaltitle}{The Economic Journal}
+      \field{month}{11}
+      \field{title}{Judicial Decisions, Backlash and Secessionism: The Spanish Constitutional Court and Catalonia}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{file}
+      \verb https://drive.google.com/file/d/16P5QTTVboNd_K6KeSx8DHMKuJdo27iNy/view?usp=drive_link
+      \endverb
+      \keyw{publications}
+    \endentry
+    \entry{caceres_demoragas_facchini_gonzalez_chapter_nationbuilding}{incollection}{}{}
+      \name{author}{4}{}{%
+        {{hash=6a23621c4cd8c1638882509e89ddca81}{%
+           family={Cáceres},
+           familyi={C\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=c049c7c89fe283872b97c6b0a2e6380b}{%
+           family={Facchini},
+           familyi={F\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=93c1024f4a32481052196a68baf0c2b5}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=72251d240c97b0eb862cd6f9f5ae7cea}{%
+           family={Rohner},
+           familyi={R\bibinitperiod},
+           given={Dominic},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2e85e146cd92d7bc3b52b23d751ae9a6}{%
+           family={Zhuravskaya},
+           familyi={Z\bibinitperiod},
+           given={Ekaterina},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CEPR/VOXEU E-book}%
+      }
+      \strng{namehash}{f1dbaa68a4fd5843bfdfbecc4fcd25cd}
+      \strng{fullhash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{fullhashraw}{50709db922f7397dc0670c4bf66447ed}
+      \strng{bibnamehash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{authorbibnamehash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{authornamehash}{f1dbaa68a4fd5843bfdfbecc4fcd25cd}
+      \strng{authorfullhash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{authorfullhashraw}{50709db922f7397dc0670c4bf66447ed}
+      \strng{editorbibnamehash}{d603e2e00904434619b888d6d8f29998}
+      \strng{editornamehash}{d603e2e00904434619b888d6d8f29998}
+      \strng{editorfullhash}{d603e2e00904434619b888d6d8f29998}
+      \strng{editorfullhashraw}{d603e2e00904434619b888d6d8f29998}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Nation-Building: Big Lessons from Successes and Failures}
+      \field{title}{Building Nations through internal mobility: Evidence from Spanish conscripts}
+      \field{year}{2023}
+      \true{nocite}
+      \keyw{publications}
+    \endentry
+    \entry{demoragas_2022_disclosing}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{fullhash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{fullhashraw}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{bibnamehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authorbibnamehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authornamehash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authorfullhash}{7dc664359f370ac9f973a7e69a35db0b}
+      \strng{authorfullhashraw}{7dc664359f370ac9f973a7e69a35db0b}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{I study whether a decision maker would make better decisions if his private interests were disclosed. I focus on a delegation relationship in which a decision maker attempts to build a good reputation. I compare the following two scenarios: a non-disclosure case in which the interest of the decision maker is private information and a disclosure case in which his interest is publicly known. I show that the disclosure of the private interests of the decision maker can only improve the decision made when reputation concerns are intermediate, and decision makers are sufficiently informed and public-spirited. Otherwise, disclosure can be detrimental because it induces decision makers to make decisions against their private interests too often. My framework provides a novel cautionary tale regarding the use of disclosure laws to address conflicts of interest.}
+      \field{journaltitle}{European Economic Review}
+      \field{month}{11}
+      \field{title}{Disclosing Decision Makers' Private Interests}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{file}
+      \verb https://drive.google.com/file/d/11DqmBuH2S5O-fwrNZ1hZMgOkp2z-zafO/view?usp=sharing
+      \endverb
+      \keyw{publications}
+    \endentry
+    \entry{caceres_demoragas_facchini_gonzalez_2021_intergroup}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=6a23621c4cd8c1638882509e89ddca81}{%
+           family={Cáceres},
+           familyi={C\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=c049c7c89fe283872b97c6b0a2e6380b}{%
+           family={Facchini},
+           familyi={F\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=93c1024f4a32481052196a68baf0c2b5}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Ignacio},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1dbaa68a4fd5843bfdfbecc4fcd25cd}
+      \strng{fullhash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{fullhashraw}{50709db922f7397dc0670c4bf66447ed}
+      \strng{bibnamehash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{authorbibnamehash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{authornamehash}{f1dbaa68a4fd5843bfdfbecc4fcd25cd}
+      \strng{authorfullhash}{50709db922f7397dc0670c4bf66447ed}
+      \strng{authorfullhashraw}{50709db922f7397dc0670c4bf66447ed}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the long-term effects of intergroup contact on nation building by exploiting a national lottery that randomly allocated conscripts to different military areas across Spain. For men born in regions that feature a weak Spanish identity, we find that being assigned to military service in a different region substantially increases self-identification as Spanish, increases the likelihood of voting in national elections and reduces the probability of voting for a regionalist party. Moreover, in support of intergroup contact as the main mechanism behind these results, we find that movers are more likely than nonmovers to have friends from other regions.}
       \field{journaltitle}{Journal of Public Economics}
-      \field{title}{Intergroup contact and nation building: Evidence from military service in Spain}
-      \field{volume}{201}
+      \field{month}{9}
+      \field{title}{Intergroup Contact and Nation Building: Evidence from the Military Service in Spain}
       \field{year}{2021}
       \true{nocite}
-      \field{pages}{104477}
-      \range{pages}{1}
+      \verb{file}
+      \verb https://drive.google.com/file/d/12xDs-lKivxMPqQWa8U00iBsntK8hLCiw/view?usp=sharing
+      \endverb
+      \keyw{publications}
     \endentry
-    \entry{hernandez2021crown}{article}{}{}
+    \entry{demoragas_hernandez_torre_2021_crown}{article}{}{}
       \name{author}{3}{}{%
+        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
+           family={Moragas},
+           familyi={M\bibinitperiod},
+           given={Antoni-Italo},
+           giveni={A\bibinithyphendelim I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
         {{hash=e6ab4422fd4bbbfd9129369c85ce605d}{%
            family={Hernández},
            familyi={H\bibinitperiod},
            given={Enrique},
            giveni={E\bibinitperiod}}}%
-        {{hash=6191feb07a99ac9a7d1d6d97c89744c4}{%
+        {{hash=560d4d87934587359262311090fcbb9c}{%
            family={Torre},
            familyi={T\bibinitperiod},
-           given={Margarita},
+           given={Marga},
            giveni={M\bibinitperiod}}}%
-        {{hash=35b06af3a296f1fa597685aad2d522e5}{%
-           family={De\bibnamedelima Moragas},
-           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Antoni-Italo},
-           giveni={A\bibinithyphendelim I\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Taylor \& Francis}%
-      }
-      \strng{namehash}{901fd06090f56ba367d0a1baabb414cd}
-      \strng{fullhash}{f2759ca556b333c1d5ac4c243b423137}
-      \strng{fullhashraw}{f2759ca556b333c1d5ac4c243b423137}
-      \strng{bibnamehash}{f2759ca556b333c1d5ac4c243b423137}
-      \strng{authorbibnamehash}{f2759ca556b333c1d5ac4c243b423137}
-      \strng{authornamehash}{901fd06090f56ba367d0a1baabb414cd}
-      \strng{authorfullhash}{f2759ca556b333c1d5ac4c243b423137}
-      \strng{authorfullhashraw}{f2759ca556b333c1d5ac4c243b423137}
+      \strng{namehash}{ad54b13a5ede2c70660261d34f981ae2}
+      \strng{fullhash}{2dca43c7b39259430632dd7b887933f3}
+      \strng{fullhashraw}{2dca43c7b39259430632dd7b887933f3}
+      \strng{bibnamehash}{2dca43c7b39259430632dd7b887933f3}
+      \strng{authorbibnamehash}{2dca43c7b39259430632dd7b887933f3}
+      \strng{authornamehash}{ad54b13a5ede2c70660261d34f981ae2}
+      \strng{authorfullhash}{2dca43c7b39259430632dd7b887933f3}
+      \strng{authorfullhashraw}{2dca43c7b39259430632dd7b887933f3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{abstract}{The distinction between constitutional monarchies and republics constitutes a striking divide in how modern democracies are institutionalized. However, the lack of data about citizens' preferences for a monarchic or republican model of democracy has hindered the analysis of public opinion about this topic. This research note introduces a comprehensive survey that gauges citizens' attitudes towards the monarchy in Spain. The survey was fielded in late 2020 and provides unique information such as respondents' preferences about different models of democracy, how they define an ideal monarch, and their evaluations of whether current and former Spanish kings live up to these ideals. We first highlight the unique features of the dataset and provide a detailed account of the variables included. We then illustrate the potential of this survey for the study of political culture through descriptive analyses of some of the key variables included in the dataset.}
       \field{journaltitle}{Political Research Exchange}
-      \field{number}{1}
-      \field{title}{The crown: a survey about the Spanish monarchy}
-      \field{volume}{3}
+      \field{month}{6}
+      \field{title}{The Crown: A Survey About the Spanish Monarchy}
       \field{year}{2021}
       \true{nocite}
-      \field{pages}{1938149}
-      \range{pages}{1}
+      \keyw{publications}
     \endentry
   \enddatalist
 \endrefsection
