@@ -9,6 +9,7 @@ on:
       - "assets/**"
       - "_sass/**"
       - "_scripts/**"
+      - "cv/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -38,6 +39,7 @@ on:
       - "assets/**"
       - "_sass/**"
       - "_scripts/**"
+      - "cv/**"
       - "**.bib"
       - "**.html"
       - "**.js"
@@ -88,6 +90,17 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Compile CV (LaTeX → PDF) 📄
+        uses: xu-cheng/latex-action@v3
+        with:
+          working_directory: cv
+          root_file: main.tex
+          latexmk_use_xelatex: false
+          latexmk_shell_escape: false
+      - name: Place CV PDF in site assets
+        run: |
+          mkdir -p assets/pdf
+          cp cv/main.pdf assets/pdf/cv.pdf
       - name: Install and Build 🔧
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick

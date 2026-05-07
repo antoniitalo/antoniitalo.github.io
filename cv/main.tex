@@ -1,0 +1,71 @@
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}            % Palatino font
+\usepackage{microtype}           % Microtypographic refinements
+
+
+% Choose bibliography style for formatting list of publications
+\usepackage[style=ieee,url=false,doi=false,maxbibnames=99,sorting=ydnt,dashed=false]{biblatex}
+\bibliography{papers}
+
+% Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
+\def\theme{MidnightBlue}
+
+% More predefined colors can be found in 
+% https://en.wikibooks.org/wiki/LaTeX/Colors
+% Example photograph taken from Wikimedia Commons
+% https://commons.wikimedia.org/wiki/File:Kiara_Krit_passport.jpg
+
+\usepackage{simplecv}
+
+\boldname{De Moragas}{Antoni-Italo}{A.}
+
+\begin{document}
+\pagestyle{empty}
+
+% Heading
+\headinginline{Antoni-Italo De Moragas}{
+    \email{antoni.demoragas@cunef.edu} \\
+    \website{www.antonidemoragas.eu} \\
+    \href{https://orcid.org/0000-0001-8146-2167}{ORCID}\enspace$\cdot$\enspace\href{https://scholar.google.es/citations?user=jv08DUMAAAAJ}{Google Scholar} \\
+    \twitter{@moragasai}\enspace$\cdot$\enspace\href{https://bsky.app/profile/moragasai.bsky.social}{Bluesky}
+}
+
+% \headingphoto{Name Surname}{
+%     Website: \website{example.com} \\ 
+%     Email: \email{example@example.edu} \\
+%     LinkedIn: \linkedin{name-surname} \\
+%     GitHub: \github{example}
+% }{photo.jpg}
+
+% Page One
+\import{sections/}{experience.tex}
+
+\import{sections/}{education.tex}
+\import{sections/}{publications.tex}
+\import{sections/}{books.tex}
+
+\import{sections/}{workingpapers.tex}
+\import{sections/}{workinprogress.tex}
+
+
+
+% Page Two
+\import{sections/}{awards.tex}
+
+\import{sections/}{teaching.tex}
+\import{sections/}{supervision.tex}
+\import{sections/}{talks.tex}
+\import{sections/}{stays.tex}
+
+\import{sections/}{extracurricular.tex}
+\import{sections/}{accreditations.tex}
+
+\import{sections/}{refereeing.tex}
+
+\import{sections/}{languages.tex}
+
+
+\end{document}
