@@ -7,7 +7,7 @@ subtitle: <strong>Associate Professor of Economics</strong> · Ramón y Cajal Fe
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: true
   more_info: >
     <p><strong>CUNEF Universidad</strong></p>
     <p>Despacho F4.5</p>
