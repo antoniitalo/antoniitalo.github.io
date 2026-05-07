@@ -99,11 +99,21 @@ h2.news {
      unified Mondrian rule, not a doubled-up 8px stack.
    ============================================================= */
 
+.post { position: relative; }
+
 .profile {
   position: relative;
   padding-left: 50px;
   background: transparent;
   isolation: isolate;
+}
+
+/* Strip default UA margins on figure/picture so the photo's top
+   sits exactly at the .profile container's top. */
+.profile figure,
+.profile picture {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .profile::before {
@@ -139,6 +149,9 @@ h2.news {
   z-index: 1;
 }
 
+/* al-folio renders the address-like block as .more-info (newer
+   versions) or .address (older). Style both. */
+.profile .more-info,
 .profile .address {
   position: relative;
   z-index: 1;
@@ -148,7 +161,26 @@ h2.news {
   font-size: 0.85rem;
   line-height: 1.55;
 }
+.profile .more-info p,
 .profile .address p { margin-bottom: 0.15rem; }
+
+/* =============================================================
+   Align the profile with the page title (h1.post-title).
+   On wider screens, the photo sits to the right of the name --
+   not below the post-header.
+   ============================================================= */
+@media (min-width: 768px) {
+  .post-header {
+    padding-right: calc(30% + 1.5rem);
+    margin-bottom: 0.4rem;
+  }
+  .post article > .profile.float-right {
+    /* Pull the floated profile up so its top aligns with the h1.
+       The value approximates the post-header's rendered height
+       (h1 line + .desc line + their margins). Tunable. */
+    margin-top: -7.5rem;
+  }
+}
 
 /* =============================================================
    Page-wide hairlines (architect-quiet)
