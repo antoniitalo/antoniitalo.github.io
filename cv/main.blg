@@ -1,24 +1,24 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[89] biber:342> INFO - === Fri May  8, 2026, 07:44:37
-[106] Biber.pm:421> INFO - Reading 'main.bcf'
+[96] biber:342> INFO - === Fri May  8, 2026, 09:28:27
+[113] Biber.pm:421> INFO - Reading 'main.bcf'
 [182] Biber.pm:999> INFO - Using all citekeys in bib section 0
 [194] Biber.pm:4487> INFO - Processing section 0
-[204] Biber.pm:4678> INFO - Looking for bibtex file '../_bibliography/papers.bib' for section 0
-[205] bibtex.pm:1713> INFO - LaTeX decoding ...
-[242] bibtex.pm:1519> INFO - Found BibTeX data source '../_bibliography/papers.bib'
-[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[378] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[378] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[378] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[392] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[400] bbl.pm:779> INFO - Output to main.bbl
-[400] Biber.pm:132> WARN - legacy month field 'November' in entry 'demoragas_2022_disclosing' is not an integer - this will probably not sort properly.
-[400] Biber.pm:132> WARN - legacy month field 'October' in entry 'andreottola_demoragas_2025_breakingnews' is not an integer - this will probably not sort properly.
-[400] Biber.pm:132> WARN - legacy month field 'November' in entry 'casas_curci_demoragas_2024_judicial' is not an integer - this will probably not sort properly.
-[401] Biber.pm:132> WARN - legacy month field 'June' in entry 'demoragas_hernandez_torre_2021_crown' is not an integer - this will probably not sort properly.
-[401] Biber.pm:132> WARN - legacy month field 'September' in entry 'caceres_demoragas_facchini_gonzalez_2021_intergroup' is not an integer - this will probably not sort properly.
-[401] Biber.pm:132> WARN - legacy month field 'January' in entry 'demoragas_consensushurts_wp' is not an integer - this will probably not sort properly.
-[401] Biber.pm:132> WARN - legacy month field 'January' in entry 'barbet_demoragas_vidal_2024_stories' is not an integer - this will probably not sort properly.
-[401] Biber.pm:132> WARN - BibTeX subsystem: /tmp/biber_tmp_bfsY/4cba211c7098ce6d56874590d4a06a86_10.utf8, line 4, warning: 6 characters of junk seen at toplevel
-[401] Biber.pm:134> INFO - WARNINGS: 8
+[203] Biber.pm:4678> INFO - Looking for bibtex file '../_bibliography/papers.bib' for section 0
+[204] bibtex.pm:1713> INFO - LaTeX decoding ...
+[241] bibtex.pm:1519> INFO - Found BibTeX data source '../_bibliography/papers.bib'
+[372] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[373] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[373] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[373] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[386] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[393] bbl.pm:779> INFO - Output to main.bbl
+[393] Biber.pm:132> WARN - legacy month field 'January' in entry 'barbet_demoragas_vidal_2024_stories' is not an integer - this will probably not sort properly.
+[393] Biber.pm:132> WARN - legacy month field 'November' in entry 'demoragas_2022_disclosing' is not an integer - this will probably not sort properly.
+[393] Biber.pm:132> WARN - legacy month field 'September' in entry 'caceres_demoragas_facchini_gonzalez_2021_intergroup' is not an integer - this will probably not sort properly.
+[393] Biber.pm:132> WARN - legacy month field 'January' in entry 'demoragas_consensushurts_wp' is not an integer - this will probably not sort properly.
+[393] Biber.pm:132> WARN - legacy month field 'November' in entry 'casas_curci_demoragas_2024_judicial' is not an integer - this will probably not sort properly.
+[393] Biber.pm:132> WARN - legacy month field 'June' in entry 'demoragas_hernandez_torre_2021_crown' is not an integer - this will probably not sort properly.
+[393] Biber.pm:132> WARN - legacy month field 'October' in entry 'andreottola_demoragas_2025_breakingnews' is not an integer - this will probably not sort properly.
+[393] Biber.pm:132> WARN - BibTeX subsystem: /tmp/biber_tmp_I4rA/4cba211c7098ce6d56874590d4a06a86_10.utf8, line 4, warning: 6 characters of junk seen at toplevel
+[393] Biber.pm:134> INFO - WARNINGS: 8
