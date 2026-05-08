@@ -208,50 +208,6 @@
       \endverb
       \keyw{working_papers}
     \endentry
-    \entry{demoragas_facchini_gonzalez_trivin_minimumwage_wip}{unpublished}{}{}
-      \name{author}{4}{}{%
-        {{hash=7dc664359f370ac9f973a7e69a35db0b}{%
-           family={Moragas},
-           familyi={M\bibinitperiod},
-           given={Antoni-Italo},
-           giveni={A\bibinithyphendelim I\bibinitperiod},
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{hash=c049c7c89fe283872b97c6b0a2e6380b}{%
-           family={Facchini},
-           familyi={F\bibinitperiod},
-           given={Gabriel},
-           giveni={G\bibinitperiod}}}%
-        {{hash=93c1024f4a32481052196a68baf0c2b5}{%
-           family={González},
-           familyi={G\bibinitperiod},
-           given={Ignacio},
-           giveni={I\bibinitperiod}}}%
-        {{hash=c7b1ba511a971eb9cd10f15ab4a21138}{%
-           family={Trivin},
-           familyi={T\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{ad54b13a5ede2c70660261d34f981ae2}
-      \strng{fullhash}{d2905c5a67cd17a1fca196dbfe373a1c}
-      \strng{fullhashraw}{d2905c5a67cd17a1fca196dbfe373a1c}
-      \strng{bibnamehash}{d2905c5a67cd17a1fca196dbfe373a1c}
-      \strng{authorbibnamehash}{d2905c5a67cd17a1fca196dbfe373a1c}
-      \strng{authornamehash}{ad54b13a5ede2c70660261d34f981ae2}
-      \strng{authorfullhash}{d2905c5a67cd17a1fca196dbfe373a1c}
-      \strng{authorfullhashraw}{d2905c5a67cd17a1fca196dbfe373a1c}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Work in progress}
-      \field{title}{The Electoral Impact of Minimum Wage Increases: Evidence from Spain}
-      \field{year}{2026}
-      \true{nocite}
-      \keyw{work_in_progress}
-    \endentry
     \entry{alquezar_demoragas_estebancasanelles_handofgod_wip}{unpublished}{}{}
       \name{author}{3}{}{%
         {{hash=63b1711950e747754f8765a9e4b11cc0}{%
@@ -682,7 +638,6 @@
       \strng{authornamehash}{ad54b13a5ede2c70660261d34f981ae2}
       \strng{authorfullhash}{2dca43c7b39259430632dd7b887933f3}
       \strng{authorfullhashraw}{2dca43c7b39259430632dd7b887933f3}
-      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
